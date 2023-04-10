@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+                
+    
+    
+    <wb-module deploy-name="EARRechercheEmploi">
+                                
+        
+        
+        <wb-resource deploy-path="/" source-path="/" tag="defaultRootSource"/>
+                
+        <dependent-module archiveName="WEBRechercheEmploi.war" deploy-path="/" handle="module:/resource/WEBRechercheEmploi/WEBRechercheEmploi">
+                        
+            <dependent-object/>
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+        <dependent-module archiveName="EJBRechercheEmploi.jar" deploy-path="/" handle="module:/resource/EJBRechercheEmploi/EJBRechercheEmploi">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+                            
+    
+    
+    </wb-module>
+            
+
+
+</project-modules>
